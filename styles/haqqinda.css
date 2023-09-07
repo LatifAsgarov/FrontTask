@@ -1,0 +1,263 @@
+@import "./reset.css"; 
+
+body{
+    font-family: CocoSharp,Arial;
+}
+
+
+.haqqinda-text{
+    color: #FF6400!important;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+    margin: 10px 0 20px 0;
+}
+
+.haqqinda-text-des{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 15px 0;
+}
+
+.haqqinda-text-big-p{
+    font-size: 16px;
+    margin: 15px 0;
+    font-weight: 400;
+}
+.haqqinda-card:hover a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.haqqinda-p-options-head{
+    font-weight: 600;
+    font-size: 12px;
+}
+.haqqinda-text-options{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.haqqinda-options{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.haqqinda-text-footer{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.haqqinda-text-date{
+    font-size: 15px;
+    color: #a6adb2;
+    font-weight: 400;
+    line-height: 14px;
+    margin-bottom: 30px;
+}
+
+.haqqinda-mission-div{
+    padding: 20px 40px;
+    font-weight: 400;
+    line-height: 16px;
+    background: #FF6400;
+    color: white;
+    border-radius: 10px;
+}
+
+.haqqinda-mission-text{
+    Line-height: 18px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.haqqinda-mission-i i {
+    content: "\e92f";
+    font-size: 60px;
+    color: #fff;
+}
+
+.haqqinda-karts{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.haqqinda-card {
+    display: flex;
+   align-items: center;
+   background-color:#f3f3f3;
+   border-radius: 10px;
+   padding: 20px;
+   margin-bottom: 10px;
+}
+
+.haqqinda-card-icon-div{
+    margin-right: 10px;
+    font-size: 30px;
+    line-height: 65px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.haqqinda-card-head{
+    line-height: 14px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 14px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.haqqinda-card-des{
+    line-height: 12px;
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 0;
+    padding-right: 30px;
+    height: auto;
+}
+.haqqinda-card-icon-div i{
+    color: #FF6400;
+}
+.lisenziyalar-head{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #FF6400!important;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+}
+.lisenziyalar-p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 10px 0;
+}
+
+.elaqe-head{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #FF6400!important;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+}
+.haqqinda-elaqe-header{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    
+}
+.haqqinda-elaqe-des{
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 20px;
+}
+
+.melumat-head{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #FF6400!important;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+}
+.mukafat-head{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #FF6400!important;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+}
+.mukafats{
+    margin-bottom: 25px;
+    width: 45%;
+    padding: 0;
+    margin-right: 10px;
+}
+.mukafat-texts p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 10px 0;
+}
+.mukafatlar-divs{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.muafat-img img{
+    width: 160px;
+    height: 30px;
+}
+
+.haqqinda-card:hover{
+    color: white;
+    background-color: #FF6400;
+}
+
+.haqqinda-card:hover i{
+    color: white;
+}
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+}
+
+    @media only screen and (min-width: 768px) {
+        main{
+            padding: 0 100px;
+        }
+        
+        section{
+            padding: 0 100px;
+        }
+        
+        .haqqinda-mission-div{
+            display: flex;
+        }
+
+        .haqqinda-mission-i {
+            margin-right: 20px;
+        }
+        .haqqinda-l-e-q{
+            display: flex;
+            justify-content: space-between;
+        }
+        .haqqinda-leq{
+            width: 33%;
+        }
+        .mukafatlar-divs{
+            display: flex;
+            justify-content: space-between;
+        }
+        .haqqinda-karts{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+        }
+        .haqqinda-card {
+            display: block;
+            text-align: center;
+            padding: 60px 40px;
+        }
+        .haqqinda-card-text p{
+            text-align: center;
+        }
+    }

@@ -1,0 +1,116 @@
+@import "./reset.css"; 
+
+
+body{
+    font-family: CocoSharp,Arial;
+}
+
+.emanetler-icon-div{
+    margin-bottom: 20px;
+}
+
+.kocurmeler-first-p{
+    margin-bottom: 30px;
+    color: #FF6400!important;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+}
+
+.kocurmeler-second-des{
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.kocurmeler-btn{
+    color: #a1a1a1;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid #969696;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    background-color: white;
+}
+.kocurmeler-card{
+    display: flex;
+    background-color: #f0f0f0;
+    margin: 12px;
+    padding: 45px 60px;
+    border-radius: 10px;
+}
+.kocurmeler-header{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.kocurmeler-card-p-div{
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000;
+}
+.kocurmeler-card-img-div{
+    margin-right: 20px;
+}
+.kocurmeler-star-p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.kocurmeler-star-p p{
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000;
+}
+.kocurmeler-card-btn{
+    border-radius: 25px;
+    height: 50px;
+    padding: 0 30px;
+    background-color: #FF6400;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    border: none;
+}
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+
+    .kocurmler-img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main{
+        padding: 0 100px;
+    }
+    
+    section{
+        padding: 0 100px;
+    }
+    .kocurmler-img{
+        width: 300px;
+        height: 150px;
+    }
+}

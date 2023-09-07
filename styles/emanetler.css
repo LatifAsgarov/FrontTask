@@ -1,0 +1,76 @@
+@import "./reset.css"; 
+
+
+body{
+    font-family: CocoSharp,Arial;
+}
+
+.emanet{
+    width: 100%;
+    padding: 30px 40px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: #fafafa;
+}
+.emanetler-p{
+    color: #FF6400;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.emanetler-type{
+    margin: 7px 0;
+    font-size: 18px;
+    font-weight: 800;
+}
+.emanet-des{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+.emanetler-etrafli{
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px solid transparent;
+    display: inline-flex;
+    background: #FF6400;
+    color: #fff!important;
+    padding: 16px 25px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.emanetler-icon-div{
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main{
+        padding: 0 100px;
+    }
+    
+    section{
+        padding: 0 100px;
+    }
+    .emanet-types-container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .emanet{
+        width: 95%;
+    }
+}

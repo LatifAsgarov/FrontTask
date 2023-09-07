@@ -1,0 +1,301 @@
+@import "./reset.css"; 
+
+body{
+    font-family: CocoSharp,Arial;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(158, 158, 158);
+}
+.insan-header{
+   color: #FF6400!important;
+   font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+}
+
+.insan-header-buttons{
+    overflow-x: scroll;   
+    overflow-y: hidden;   
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.insan-video iframe{
+    border-radius: 10px;
+}
+
+.insan-video{
+    margin-bottom: 15px;
+}
+
+.insan-card{
+    background-color:#f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.insan-card:hover{
+    color: white;
+    background-color: #FF6400;
+}
+.insan-card:hover i{
+    color: white;
+}
+
+.insan-card-icon i{
+    color: #FF6400;
+    font-size: 34px;
+}
+.insan-card-text p{
+    line-height: 12px;
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 0;
+    padding-right: 30px;
+    height: auto;
+}
+.insan-card-text h6{
+    line-height: 14px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 14px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.insan-card-icon{
+    margin-right: 20px;
+}
+.insan-header-buttons button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 25px;
+    border: 2px solid #969696;
+    background-color: transparent;
+    color: #969696;
+}
+
+.insan-header-buttons::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .insan-header-buttons {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+
+  .person-img img{
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+  }
+  .personal-info-card{
+    margin-bottom: 10px;
+    width: 100%;
+    align-items: flex-start;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fafafa;
+  }
+
+  .personal-info-card h6{
+    margin-bottom: 5px;
+    line-height: 14px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .vezife{
+
+    line-height: 10px;
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: left;
+    color: rgba(0,0,0,.5);
+    margin-bottom: 5px;
+    
+  }
+
+  .qaqa-info{
+    text-align: left;
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  .insan-haqqimizda{
+    margin-bottom: 10px;
+    width: 100%;
+    align-items: flex-start;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fafafa;
+  }
+
+  .insan-haqqimizda h6{
+    color: #FF6400!important;
+   font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+  }
+
+  .insan-haqqimizda p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  .check-card{
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: #FF6400;
+    line-height: 15px;
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  
+
+  .check-icon{
+    font-size: 34px;
+    margin-right: 10px;
+  }
+
+  .deyerlerimiz{
+    margin-top: 30px;
+  }
+
+  .deyerlerimiz h6{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #FF6400!important;
+    font-weight: 800;
+  }
+
+  .deyerlerimiz h3{
+    line-height: 14px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .deyerlerimiz p{
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 20px;
+  }
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+}
+
+    @media only screen and (min-width: 768px) {
+        main{
+            padding: 0 100px;
+        }
+        
+        section{
+            padding: 0 100px;
+        }
+        .insan-card{
+            text-align: center;
+            display: grid;
+            margin: 20px;
+            padding: 80px 40px;
+        }
+        .insan-card-text p{
+            text-align:center;
+            
+        }
+        .insan-card-text h6{
+            text-align:center;
+            
+        }
+        .insan-cards{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .insan-card-icon i{
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .insan-personal-info{
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        .personal-info-card{
+            width: 50%;
+            margin-right: 20px;
+        }
+
+        .insan-check{
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .check-card{
+            display: flex;
+            flex-direction: column;
+            margin-right: 10px;
+            padding: 35px 45px;
+            width: 25%;
+        }
+
+        .check-icon{
+            margin-bottom: 10px;
+        }
+
+        .etibar-text{
+            display: flex;
+
+        }
+
+        .etibar-text div{
+            width: 25%;
+            margin-right: 10px;
+        }
+    }

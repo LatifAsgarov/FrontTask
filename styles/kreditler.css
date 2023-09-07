@@ -1,0 +1,93 @@
+@import "./reset.css"; 
+body{
+    font-family: CocoSharp,Arial;
+}
+.kredits{
+    width: 100%;
+    padding: 30px 40px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: #fafafa;
+}
+
+.kreditler-p{
+    color: #FF6400;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.icon-span{
+    width: 45px;
+    height: 45px;
+}
+
+.kreditler-type{
+    margin: 7px 0;
+    font-size: 18px;
+    font-weight: 800;
+}
+.kredit-des{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.apply-kreditler{
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px solid transparent;
+    display: inline-flex;
+    background: #FF6400;
+    color: #fff!important;
+    padding: 16px 25px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.kreditler-etrafli{
+    padding: 14px 30px;
+    line-height: 12px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 25px;
+    border: 1px solid rgba(0,0,0,.1);
+    color: #969696!important;
+    background: 0 0!important;
+    box-shadow: none!important;
+    line-height: 16px!important;
+}
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main{
+        padding: 0 100px;
+    }
+    
+    section{
+        padding: 0 100px;
+    }
+    .kredit-types-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+
+    .kredits{
+        margin-right: 10px;
+        width: 90%;
+    }
+}

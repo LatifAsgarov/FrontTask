@@ -1,0 +1,80 @@
+@import "./reset.css"; 
+body{
+    font-family: CocoSharp,Arial;
+}
+
+.xidmetler-header{
+    color: #FF6400!important;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.xidmetler-top-button-div button{
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 25px;
+    border: 2px solid #969696;
+    color: #a1a1a1;
+    text-decoration: none;
+    background-color: white;
+}
+
+.xidmetler-top-button-div{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.xidmetler-img-div img{
+    width: 354px;
+    height: 400px;
+}
+.xidmetler-card{
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.xidmetler-card-name{
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.xidmetler-card-des{
+    font-size: 12px;
+    font-weight: 400;
+
+}
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+}
+
+    @media only screen and (min-width: 768px) {
+        main{
+            padding: 0 100px;
+        }
+        
+        section{
+            padding: 0 100px;
+        }
+        
+        .xidmetler-img-div img{
+            width: 976px;
+            height: 400px;
+        }
+        
+    }

@@ -1,0 +1,150 @@
+@import "./reset.css"; 
+
+body{
+    line-height: 15px;
+    font-family: CocoSharp,Arial;
+}
+.Kartlar{
+    margin-bottom: 15px;
+    color: #FF6400;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: normal;
+
+}
+.kartlar-Ubank{
+    padding: 30px 40px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    flex-direction: column;
+    background: #fafafa;
+    border-radius: 10px; 
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.kartlar-Ubank-1{
+    padding: 30px 40px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    flex-direction: column;
+    background: #fafafa;
+    border-radius: 10px; 
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.kartlar-Ubank-img-div img{
+    width: 280px;
+    box-shadow: -15px 15px 30px 0 rgba(0,0,0,.24);
+    padding: 0;
+    border-radius: 15px;
+}
+.kartlar-Ubank-img-div{
+    margin-bottom: 20px;
+}
+.Card-name{
+    font-size: 18px;
+    font-weight: 800;
+    color: #000;
+    line-height: 30px;
+}
+.kartlar-icons i{
+    font-size: 34px;
+    content: "\e951";
+    color: #ff6b00;
+
+}
+
+.card-description{
+    text-align: center;
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+.kartlar-icons{
+    margin-left: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.kart-button{
+    padding: 14px 30px;
+    line-height: 12px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 12px;
+    background: #ff6400;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px -10px rgba(255,107,0,.51);
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    main{
+        padding: 0 100px;
+    }
+    
+    section{
+        padding: 0 100px;
+    }
+    .kartlar-Ubank{
+        display: flex;
+        align-items: flex-start;
+        margin-right: 20px;
+    }
+
+    .diger{
+        display: grid;
+  grid-template-columns: auto auto;
+    }
+    .card-description{
+      text-align: left;
+    }
+    .kart-button{
+        width: 200px;
+        height: 50px;
+    }
+    .kartlar-Ubank-1{
+        display: flex;
+        flex-direction: row;
+        padding: 30px 40px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background: #fafafa;
+    border-radius: 10px; 
+    justify-content: space-between;
+    margin: 20px 0;
+    }
+    .Card-name{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .card-description{
+        font-size: 14px;
+    }
+    .kartlar-Ubank-text-div{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .debet-cards{
+        display: grid;
+  grid-template-columns: auto auto  ;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+}

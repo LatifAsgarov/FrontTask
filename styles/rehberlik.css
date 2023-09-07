@@ -1,0 +1,135 @@
+@import "./reset.css"; 
+
+body{
+    font-family: CocoSharp,Arial;
+}
+
+.insan-header{
+    color: #FF6400!important;
+    font-size: 22px;
+     line-height: normal;
+     font-weight: 800;
+ }
+ 
+ .insan-header-buttons{
+     overflow-x: scroll;   
+     overflow-y: hidden;   
+     white-space: nowrap;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ 
+ }
+ 
+ .insan-video iframe{
+     border-radius: 10px;
+ }
+
+ a{
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+ }
+
+ .insan-header-buttons button{
+   display: inline-block;
+   padding: 10px 20px;
+   margin-right: 10px;
+   font-family: CocoSharp,Arial;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: normal;
+   text-align: center;
+   white-space: nowrap;
+   border-radius: 25px;
+   border: 2px solid #969696;
+   background-color: transparent;
+   color: #969696;
+}
+.insan-header-buttons::-webkit-scrollbar {
+   display: none;
+ }
+ 
+ 
+ .insan-header-buttons {
+   -ms-overflow-style: none;  
+   scrollbar-width: none;  
+ }
+ .reberh-card{
+    padding: 16px 40px;
+    border: 10px;
+    background: #fafafa;
+    margin: 5px 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+
+ .rehber-img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+
+ }
+ .rehber-text{
+    margin-left: 20px;
+ }
+
+ .rehber-text h6{
+    line-height: 14px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+ }
+ .rehber-text p{
+    line-height: 10px;
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: left;
+ }
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+}
+
+    @media only screen and (min-width: 768px) {
+        main{
+            padding: 0 100px;
+        }
+        
+        section{
+            padding: 0 100px;
+        }
+    .rehberlik-cards{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reberh-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+
+    .rehber-img img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .rehber-text h6{
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .rehber-text p{
+        display: block;
+        text-align: center;
+    }
+}

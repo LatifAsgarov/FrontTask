@@ -1,0 +1,232 @@
+@import "./reset.css"; 
+
+body{
+    font-family: CocoSharp,Arial;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+  }
+  .insan-header{
+     color: #FF6400!important;
+     font-size: 22px;
+      line-height: normal;
+      font-weight: 800;
+  }
+  
+  .insan-header-buttons{
+      overflow-x: scroll;   
+      overflow-y: hidden;   
+      white-space: nowrap;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  
+  }
+  
+  .insan-video iframe{
+      border-radius: 10px;
+  }
+
+  .insan-header-buttons button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 25px;
+    border: 2px solid #969696;
+    background-color: transparent;
+    color: #969696;
+}
+.insan-header-buttons::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .insan-header-buttons {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+
+  .unibankdaCalismaq-head{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    background-color: #f97217;
+    text-align: center;
+    border-radius: 10px;
+
+  }
+.unibankdaCalismaq-text{
+    position: relative;
+}
+
+.unibankdaCalismaq-text h6{
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+.unibankdaCalismaq-text p{
+    margin: 10px auto 0;
+    color: #fff;
+    font-weight: 400;
+    font-family: CocoSharp,Arial;
+    font-size: 12px;
+    line-height: 1.25;
+    text-align: center;
+
+}
+  
+  .unibankdaCalismaq-img{
+    width: 10px;
+  }
+
+  .user-text-img img{
+    width: 100%;
+  }
+
+  .ise-qebul-bos-text{
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .ise-qebul-cards{
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    
+  }
+
+  .ise-qebul-card{
+    margin-bottom: 10px;
+    padding: 35px 30px;
+    background: #FAFAFA;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+  }
+.ise-qebul-icon i{
+    margin-top: 20px;
+    
+    color: #FF6400;
+    font-size: 75px;
+}
+
+.ise-qebul-card-text{
+    
+    font-size: 20px;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.ise-qebul-card-btn button{
+    background: #FF6400;
+    color: #fff!important;
+    padding: 14px 20px;
+    font-size: 12px;
+    line-height: 16px;
+    border: none;
+    border-radius: 25px;
+}
+.artikl-img img{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.artikl-img {
+    margin-bottom: 20px;
+}
+.artikl-text h6{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.43;
+}
+.artikl-text p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.artikl-card{
+    margin-bottom: 20px;
+}
+  @media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+    .unibankdaCalismaq-img img{
+        position: relative;
+        width: 200px;
+        height:250px;
+        opacity: 0.6;
+      }
+}
+
+    @media only screen and (min-width: 768px) {
+        main{
+            padding: 0 100px;
+        }
+        
+        section{
+            padding: 0 100px;
+        }
+
+        .unibankdaCalismaq-head{
+            display: flex;
+            justify-content: space-between;
+            height: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 65px;
+        }
+
+        .unibankdaCalismaq-img img{
+            max-width: 100%;
+    box-shadow: unset;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 350px;
+    width: auto;
+        }
+    .ise-qebul-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .ise-qebul-card{
+        width: 25%;
+        margin-right: 10px;
+    }
+.ise-qebul-articles{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.artikl-card{
+    
+    margin-right: 30px;
+}
+    }

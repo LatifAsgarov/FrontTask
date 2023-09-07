@@ -1,0 +1,62 @@
+@import "./reset.css"; 
+
+body{
+    font-family: CocoSharp,Arial;
+}
+.reqemsal-kart{
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    background: #fafafa;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.reqemsal-logo{
+    margin-right:20px ;
+}
+.reqemsal-kart i{
+    font-size: 40px;
+    line-height: 65px;
+    color: #000;
+    margin-bottom: 10px;
+    
+}
+
+.reqemsal-head{
+    font-weight: 800;
+    margin-bottom: 10px;
+    
+}
+.reqemsal-des{
+    font-weight: 400;
+}
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+}
+
+    @media only screen and (min-width: 768px) {
+        main{
+            padding: 0 100px;
+        }
+        
+        section{
+            padding: 0 100px;
+        }
+        
+        .reqemsal-cards{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .reqemsal-kart{
+            display: block;
+           text-align: center;
+           margin: 20px;
+        }
+        
+    }

@@ -1,0 +1,116 @@
+@import "./reset.css"; 
+
+body{
+    font-family: CocoSharp,Arial;
+}
+
+
+.bankla-elaqe-header{
+    color: #ff6400!important;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 800;
+}
+.bankla-elaqe-des{
+    margin: 15px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.bankla-elaqe-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bankla-elaqe-card:hover{
+    background-color: #ff6400;
+    color: white;
+}
+.bankla-elaqe-card:hover h6{
+    color: white;
+}
+.bankla-elaqe-card:hover i{
+    color: white;
+}
+.bankla-elaqe-icon i{
+    color: #ff6400;
+    font-size: 34px;
+    
+}
+.bankla-elaqe-icon{
+    margin-right: 30px;
+}
+
+.bankla-elaqe-text h6{
+    line-height: 14px;
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 14px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.bankla-elaqe-text p{
+    line-height: 12px;
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 0;
+    padding-right: 30px;
+    height: auto;
+}
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 18px;
+    }
+    
+    section{
+        padding: 0 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main{
+        padding: 0 100px;
+    }
+    
+    section{
+        padding: 0 100px;
+    }
+    .bankla-elaqe-cards{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .bankla-elaqe-card{
+        
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bankla-elaqe-text h6{
+text-align: center;
+margin: 15px 0;
+font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    line-height: normal;
+    margin-bottom: 10px
+    }
+
+    .bankla-elaqe-text p{
+text-align: center;
+line-height: 14px;
+font-weight: 400;
+    font-size: 15px;
+    }
+}
